@@ -1,41 +1,66 @@
->**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
+Bikeshare Project using Python
 
-### Date created
-<<<<<<< HEAD
-4/20/2023
-#Include the date you created this project and README file.
+Project Overview
 
-### Project Title
-#Replace the Projec
-Project#3 Github
+This project focuses on Ptyhon’s library usage and simple statistics methods to perform descriptive analysis on the bikeshare data from three major U.S. cities, Chicago, Washington, and New York City - to display information such as example most common days or most common stations.
 
-### Description
-Describe what your project is about and what it does
-A project that focues on Python's library usage and simple statistics methods to perfomr descriptive analysis
-on the bikshare data from 3 major cities, Chicago, New York and Washington- to display information such as 
-example most common days or most common stations.
+Program Details
 
-### Files used
-Include the files used
-Bikeshare.py
-chicago.csv
-new_york_city.csv
-washington_csv
+The program takes user input for the city (Chicago, New York, Washington),
+month for which the user wants to view data (January～June; including 'none' option),
+and day for which the user wants to view data (Monday～Sunday; including  'none' ).
 
-=======
-Include the date you created this project and README file.
+Upon receiving the user input, it asks the user if they want to see 5 rows of data or not.
 
-### Project Title
-Replace the Project Title
+After the input, the program prints the following details:
 
-### Description
-Describe what your project is about and what it does
+●        Most common month
 
-### Files used
-Include the files used
->>>>>>> 7fd5ba24484e3dee32a66e58a7403f75965d8cd6
+●        Most common day of the week
 
-### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+●        Most common hour of day
 
+●        Most common start station
 
+●        Most common end station
+
+●        Most common trip from start to end
+
+●        Total travel time
+
+●        Average travel time
+
+●        Count of each user type
+
+●        Counts of each gender Types of users by gender
+
+●        Earliest, most recent , most common year of birth
+
+Finally, the user is prompted with the choice of restarting the program or not.
+
+Tools I used
+
+●        Language: Python 3.11.1
+
+●        Libraries: Pandas, Numpy, Time
+
+Project Data
+
+The following datasets containing bikeshare information for the city of 3 cities provided by Udacity.
+
+●      chicago.csv / new_york_city.csv / washington.csv
+
+References
+
+●        Tertail / Stackoverflow -this site really helped me with learning how to edit and fix errors.
+
+●        Udacity Q&A corner-
+Udacity's mentors were very helpful especially in correcting errors. Thank you!
+
+●        Udacity GPT
+This helped me fix my errors.
+
+●        Aidemy:A Japanese python and machine learning on-line site
+
+The material was very useful and enabled me to comprehend python
+in Japanese.
